@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>นโยบายความเป็นส่วนตัว · GHOD AI Radar</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5b66; --line: #e3e0e8;
+    --accent: #c62828; --draft-bg: #fff4e5; --draft-fg: #7a4b00; --mark: #fff59d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141218; --fg: #e6e1e5; --muted: #aaa4b0; --line: #36323b;
+      --accent: #ff6b5f; --draft-bg: #3a2a10; --draft-fg: #ffcc80; --mark: #6d5f00;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.7 "Sarabun", "Noto Sans Thai", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; line-height: 1.3; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  .meta { color: var(--muted); font-size: .95rem; }
+  .lang { margin: 16px 0 0; }
+  .lang a { color: var(--accent); }
+  .draft {
+    background: var(--draft-bg); color: var(--draft-fg); border-radius: 8px;
+    padding: 12px 14px; margin: 20px 0; font-size: .95rem;
+  }
+  .summary { border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+  th { background: color-mix(in srgb, var(--line) 45%, transparent); }
+  code { font-size: .9em; overflow-wrap: anywhere; }
+  mark { background: var(--mark); color: inherit; padding: 0 3px; border-radius: 3px; }
+  .table-wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>นโยบายความเป็นส่วนตัว</h1>
+<p class="meta">แอป GHOD AI Radar · มีผลตั้งแต่ 1 ตุลาคม 2569 (2026) · ปรับปรุงล่าสุด 1 ตุลาคม 2569 (2026)</p>
+<p class="lang"><a href="#en">English version below</a></p>
+
+<div class="summary">
+  <strong>สรุปสั้น</strong>
+  <ul>
+    <li>GHOD AI Radar ตรวจดูว่าแอปใดในเครื่องได้สิทธิ์ควบคุมเครื่อง แล้วแจ้งเตือนคุณ <strong>การตรวจทั้งหมดเกิดในเครื่องของคุณ</strong></li>
+    <li><strong>เราไม่ได้รับข้อมูลส่วนบุคคลของคุณ</strong> แอปไม่มีเซิร์ฟเวอร์ของเรา ไม่มีระบบสมาชิก ไม่มีโฆษณา และไม่มีเครื่องมือเก็บสถิติ</li>
+    <li>แอปใช้อินเทอร์เน็ตเพียงเพื่อ<strong>ดาวน์โหลด</strong>ไฟล์กฎ (รายชื่อ AI agent และรายชื่อแอปหลอกลวงที่มีการรายงาน) วันละไม่เกิน 1 ครั้ง โดยไม่ส่งข้อมูลใดของคุณออกไป</li>
+    <li>แอปนี้<strong>ไม่ใช่โปรแกรมสแกนไวรัส</strong> (แอนตี้ไวรัส) ไม่อ่านไฟล์ และไม่ตรวจโค้ดหรือเนื้อหาภายในแอปอื่น</li>
+    <li>การชำระเงินทำผ่าน Google Play ทั้งหมด เราไม่เห็นข้อมูลบัตรหรือข้อมูลการชำระเงินของคุณ</li>
+  </ul>
+</div>
+
+<h2>1. ผู้ให้บริการ</h2>
+<p>นโยบายนี้ใช้กับแอป GHOD AI Radar (ชื่อแพ็กเกจ <code>com.ghod.airadar</code>) ซึ่งพัฒนาโดย Mr. Nawaprut Macharoen ("เรา")</p>
+<p>ติดต่อเรื่องความเป็นส่วนตัว: <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a></p>
+
+<h2>2. ข้อมูลที่แอปอ่านในเครื่องของคุณ</h2>
+<p>เพื่อทำงานตามหน้าที่หลัก แอปต้องอ่านข้อมูลต่อไปนี้<strong>ในเครื่องของคุณเท่านั้น</strong> ข้อมูลเหล่านี้ไม่ถูกส่งออกจากเครื่อง</p>
+<div class="table-wrap">
+<table>
+  <tr><th>ข้อมูล</th><th>ใช้ทำอะไร</th></tr>
+  <tr>
+    <td>รายชื่อแอปที่ติดตั้งในเครื่อง และแอปใดถือสิทธิ์ต่อไปนี้: Accessibility, ผู้ดูแลอุปกรณ์ (Device Admin), การเข้าถึงการแจ้งเตือน (Notification Listener)</td>
+    <td>ตรวจหาแอปที่ได้สิทธิ์ควบคุมเครื่องรายใหม่ แล้วแจ้งเตือนคุณ</td>
+  </tr>
+  <tr>
+    <td>ข้อมูลของแอปที่ถือสิทธิ์ดังกล่าว: ชื่อแอป ไอคอน ชื่อแพ็กเกจ ที่มาของการติดตั้ง (เช่น Google Play หรือแอปที่สั่งติดตั้ง) เวลาติดตั้ง และลายเซ็นดิจิทัลของแอป (ค่า SHA-256 ของใบรับรอง)</td>
+    <td>แสดงข้อเท็จจริงในแจ้งเตือน คำนวณระดับความเสี่ยงตามเกณฑ์ที่เปิดเผยในแอป และตรวจว่าแอปในสมุดรายชื่อถูกแทนที่ด้วยแอปอื่นหรือไม่</td>
+  </tr>
+  <tr>
+    <td>ชื่อแอป ชื่อแพ็กเกจ ที่มาของการติดตั้ง และลายเซ็นดิจิทัลของทุกแอปในเครื่อง</td>
+    <td>สแกนแอปหลอกลวง: เทียบกับรายชื่อแอปหลอกลวงที่มีการรายงานในไฟล์กฎ และหาแอปที่ใช้ชื่อคล้ายธนาคารหรือหน่วยงานรัฐแต่ไม่ได้ติดตั้งจากร้านแอปทางการ ทำในเครื่องทั้งหมด ไม่ส่งรายชื่อแอปออกไป</td>
+  </tr>
+  <tr>
+    <td>สถานะการตั้งค่าระบบ: ADB ผ่านสาย, ADB ไร้สาย, โหมดนักพัฒนา</td>
+    <td>แจ้งเตือนเมื่อมีการเปิดช่องทางที่ใช้สั่งงานเครื่องจากภายนอก</td>
+  </tr>
+  <tr>
+    <td>รายชื่อแป้นพิมพ์ที่เปิดใช้ในเครื่อง</td>
+    <td>ตรวจว่ามีแป้นพิมพ์ที่เครื่องมือ AI บนคอมพิวเตอร์ใช้พิมพ์ลงมือถือผ่าน ADB เปิดอยู่หรือไม่ (เทียบกับรายชื่อในไฟล์กฎ) แล้วแจ้งเตือน แอปไม่อ่านสิ่งที่คุณพิมพ์</td>
+  </tr>
+  <tr>
+    <td>สถานะการประหยัดแบตเตอรี่ของแอปนี้เอง</td>
+    <td>แสดงว่าแอปทำงานเบื้องหลังได้หรือยัง และแนะนำการตั้งค่าเพื่อให้เฝ้าระวังได้ต่อเนื่อง</td>
+  </tr>
+</table>
+</div>
+<p><strong>สิ่งที่แอปไม่ทำ:</strong> แอปไม่อ่านเนื้อหาบนหน้าจอ ไม่อ่านข้อความหรือเนื้อหาการแจ้งเตือนของแอปอื่น ไม่เข้าถึงรายชื่อติดต่อ รูปภาพ ไฟล์ ตำแหน่งที่ตั้ง กล้อง หรือไมโครโฟน และแอปไม่ขอสิทธิ์ Accessibility ให้ตัวเอง</p>
+
+<h2>3. ข้อมูลที่แอปเก็บไว้ในเครื่องของคุณ</h2>
+<ul>
+  <li><strong>ไทม์ไลน์:</strong> บันทึกว่าแอปใดได้หรือไม่ถือสิทธิ์ใดเมื่อไหร่ และช่วงเวลาที่แอปไม่ได้เฝ้าระวัง เก็บไว้ไม่เกิน 180 วันแล้วลบอัตโนมัติ</li>
+  <li><strong>สมุดรายชื่อ:</strong> แอปที่คุณเลือกว่าไว้ใจ (ชื่อแพ็กเกจ ชื่อแอป และลายเซ็นของแอป)</li>
+  <li><strong>ค่าการทำงาน:</strong> สถานะการเฝ้าระวังล่าสุด เวลาที่ตรวจล่าสุด สถานะการซื้อปลดล็อก และผลสแกนแอปหลอกลวงล่าสุด (ชื่อแพ็กเกจของแอปที่เข้าข่าย และเวลาที่สแกน) เก็บไว้เพื่อให้ใช้งานได้แม้ไม่มีอินเทอร์เน็ต</li>
+</ul>
+<p>ข้อมูลทั้งหมดอยู่ในพื้นที่ส่วนตัวของแอป ซึ่งแอปอื่นในเครื่องเข้าถึงไม่ได้ แอปปิดการสำรองข้อมูลขึ้นคลาวด์และการย้ายข้อมูลไปเครื่องใหม่ไว้ ข้อมูลจึงไม่ออกจากเครื่องผ่านช่องทางเหล่านั้น</p>
+
+<h2>4. การใช้อินเทอร์เน็ต</h2>
+<p>แอปใช้อินเทอร์เน็ตเพื่อ<strong>ดาวน์โหลด</strong>ไฟล์รายชื่อ AI agent และรายชื่อแอปหลอกลวงที่มีการรายงาน ("ไฟล์กฎ") จาก <a href="https://gamehod.github.io/ghod-ai-radar/rules/rules.json">https://gamehod.github.io/ghod-ai-radar/rules/rules.json</a> ไม่เกินวันละ 1 ครั้ง</p>
+<ul>
+  <li>คำขอดาวน์โหลดไม่มีข้อมูลของคุณ ไม่มีตัวระบุเครื่อง และไม่มีพารามิเตอร์ใดๆ แนบไป</li>
+  <li>แอปใช้ไฟล์ที่ดาวน์โหลดมาเฉพาะเมื่อลายเซ็นดิจิทัลของไฟล์ถูกต้อง</li>
+  <li>เช่นเดียวกับการเชื่อมต่ออินเทอร์เน็ตทั่วไป ผู้ให้บริการที่วางไฟล์จะเห็นหมายเลข IP ของคุณและข้อมูลการเชื่อมต่อมาตรฐาน ข้อมูลส่วนนี้อยู่ภายใต้นโยบายของผู้ให้บริการรายนั้น เราไม่ได้เก็บ log ของการดาวน์โหลดเอง</li>
+</ul>
+
+<h2>5. การชำระเงิน</h2>
+<p>การซื้อปลดล็อกทำผ่านระบบการชำระเงินของ Google Play ทั้งหมด Google เป็นผู้ประมวลผลการชำระเงินตาม<a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a> แอปได้รับจาก Google Play เพียงสถานะว่าคุณซื้อแล้วหรือยัง เราไม่เห็นชื่อ อีเมล หรือข้อมูลบัตรของคุณ และแอปไม่ส่งข้อมูลการซื้อไปที่ใด</p>
+
+<h2>6. ข้อมูลที่ Google Play อาจให้เรา</h2>
+<p>ตามการตั้งค่าเครื่องของคุณ Google Play อาจส่ง<strong>สถิติรวมที่ไม่ระบุตัวตน</strong>ให้เรา เช่น จำนวนการติดตั้ง อัตราแอปค้าง และยอดขายรวม เราใช้ข้อมูลนี้เพื่อแก้ปัญหาและปรับปรุงแอปเท่านั้น</p>
+
+<h2>7. การแบ่งปันข้อมูล</h2>
+<p>เราไม่ขาย ไม่ให้เช่า และไม่แบ่งปันข้อมูลของคุณ เพราะเราไม่ได้รับข้อมูลส่วนบุคคลของคุณตั้งแต่แรก</p>
+
+<h2>8. การลบข้อมูล</h2>
+<ul>
+  <li>นำแอปออกจากสมุดรายชื่อได้ในหน้า "สมุดรายชื่อ" ของแอป</li>
+  <li>ลบข้อมูลทั้งหมดของแอปได้ที่ ตั้งค่า → แอป → GHOD AI Radar → พื้นที่เก็บข้อมูล → ล้างข้อมูล</li>
+  <li>เมื่อถอนการติดตั้งแอป ข้อมูลทั้งหมดที่แอปเก็บไว้ในเครื่องจะถูกลบไปด้วย</li>
+</ul>
+
+<h2>9. สิทธิ์ที่แอปขอ</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>สิทธิ์</th><th>เหตุผล</th></tr>
+  <tr><td><code>QUERY_ALL_PACKAGES</code></td><td>เห็นแอปทั้งหมดในเครื่อง เพื่อตรวจว่าแอปใดถือสิทธิ์ควบคุมเครื่อง และสแกนแอปหลอกลวง</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>แจ้งเตือนคุณเมื่อตรวจพบ</td></tr>
+  <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code></td><td>เฝ้าระวังต่อเนื่องและแจ้งเตือนได้ทันที โดยมีแจ้งเตือนถาวรบอกว่ากำลังเฝ้าระวัง</td></tr>
+  <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>เริ่มเฝ้าระวังอีกครั้งหลังเปิดเครื่อง</td></tr>
+  <tr><td><code>REQUEST_DELETE_PACKAGES</code></td><td>ปุ่ม "ถอนการติดตั้ง" แอปที่เข้าข่ายหลอกลวง — เปิดหน้าต่างยืนยันของระบบ คุณต้องกดยืนยันเอง แอปลบแอปอื่นเองไม่ได้</td></tr>
+  <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>ดาวน์โหลดไฟล์กฎ และเชื่อมต่อ Google Play เพื่อซื้อปลดล็อก</td></tr>
+  <tr><td><code>com.android.vending.BILLING</code></td><td>ซื้อปลดล็อกผ่าน Google Play</td></tr>
+</table>
+</div>
+
+<h2>10. ข้อจำกัดของแอป</h2>
+<p>แอปแจ้งข้อเท็จจริงจากสิ่งที่ตรวจได้เท่านั้น ระดับความเสี่ยงเป็นความเห็นตามเกณฑ์ที่เปิดเผยในหน้า "เกณฑ์" ของแอป ข้อความ "ไม่พบ" หมายถึงไม่พบจากสิ่งที่ตรวจ ไม่ได้รับรองว่าเครื่องของคุณปลอดภัย</p>
+<ul>
+  <li>แอปนี้<strong>ไม่ใช่โปรแกรมสแกนไวรัส</strong> (แอนตี้ไวรัส) ไม่อ่านไฟล์ ไม่ตรวจโค้ดหรือเนื้อหาภายในแอปอื่น และไม่ลบหรือปิดแอปใดให้เอง</li>
+  <li>ผลสแกนแอปหลอกลวงใช้คำว่า "เข้าข่าย" เพราะเป็นการเทียบกับรายชื่อที่มีการรายงานและชื่อที่คล้ายหน่วยงาน ซึ่งอาจคลาดเคลื่อนได้ คุณเป็นผู้ตัดสินใจเองว่าจะถอนการติดตั้งหรือไม่</li>
+  <li>ขั้นตอนในหน้า "เครื่องถูกควบคุม ทำอย่างไรดี" เป็นคำแนะนำเบื้องต้นทั่วไป ไม่ใช่คำแนะนำทางกฎหมายหรือการเงิน</li>
+</ul>
+
+<h2>11. เด็กและเยาวชน</h2>
+<p>แอปนี้ไม่ได้ออกแบบมาสำหรับเด็ก และเราไม่ได้รับข้อมูลส่วนบุคคลของผู้ใช้รายใด รวมถึงเด็ก</p>
+
+<h2>12. การเปลี่ยนแปลงนโยบาย</h2>
+<p>หากเราเปลี่ยนวิธีที่แอปจัดการข้อมูล เราจะปรับปรุงนโยบายนี้และวันที่ด้านบน และถ้าการเปลี่ยนแปลงสำคัญ เราจะแจ้งในแอปก่อนมีผล</p>
+
+<h2>13. ติดต่อเรา</h2>
+<p>ถ้ามีคำถามหรือต้องการใช้สิทธิ์ตามกฎหมายคุ้มครองข้อมูลส่วนบุคคล ติดต่อ <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a></p>
+
+<hr id="en" style="margin-top:48px;border:0;border-top:2px solid var(--line)">
+
+<h1 lang="en">Privacy Policy</h1>
+<div lang="en">
+<p class="meta">GHOD AI Radar · Effective 1 October 2026 · Last updated 1 October 2026</p>
+
+<div class="summary">
+  <strong>Summary</strong>
+  <ul>
+    <li>GHOD AI Radar checks which apps on your device hold device-control permissions and alerts you. <strong>All checks run on your device.</strong></li>
+    <li><strong>We do not receive your personal data.</strong> The app has no server of ours, no accounts, no ads, and no analytics.</li>
+    <li>The app uses the internet only to <strong>download</strong> the rules file (a list of AI agents and a list of reported scam apps), at most once a day, without sending any of your data.</li>
+    <li>This app is <strong>not an antivirus</strong>. It does not read files or inspect the code or content of other apps.</li>
+    <li>Payments are handled entirely by Google Play. We never see your payment details.</li>
+  </ul>
+</div>
+
+<h2>1. Who we are</h2>
+<p>This policy covers the GHOD AI Radar app (package <code>com.ghod.airadar</code>), developed by Mr. Nawaprut Macharoen ("we").</p>
+<p>Privacy contact: <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a></p>
+
+<h2>2. Data the app reads on your device</h2>
+<p>To perform its core function, the app reads the following <strong>on your device only</strong>. None of it leaves your device.</p>
+<div class="table-wrap">
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>The list of installed apps, and which apps hold Accessibility, Device Admin, or Notification Listener access</td><td>Detect newly granted device-control permissions and alert you</td></tr>
+  <tr><td>For those apps: name, icon, package name, install source, install time, and signing-certificate SHA-256 digest</td><td>Show facts in alerts, compute a risk level using criteria disclosed in the app, and detect when a trusted app has been replaced by a different app</td></tr>
+  <tr><td>Name, package name, install source, and signing certificate of every installed app</td><td>Scam app scan: compare with the list of reported scam apps in the rules file, and find apps named like a bank or government agency that weren't installed from an official app store. Done entirely on your device; the app list is never sent anywhere</td></tr>
+  <tr><td>System settings: USB debugging, wireless debugging, developer options</td><td>Alert you when a channel for remote control of the device is turned on</td></tr>
+  <tr><td>The list of keyboards enabled on the device</td><td>Check whether a keyboard that AI tools on a computer use to type into the phone over ADB is enabled (compared with the list in the rules file), and alert you. The app does not read what you type.</td></tr>
+  <tr><td>This app's own battery-optimization status</td><td>Show whether background activity is allowed, and guide you to settings that keep monitoring running</td></tr>
+</table>
+</div>
+<p><strong>What the app does not do:</strong> it does not read screen content, does not read the content of other apps' notifications, and does not access contacts, photos, files, location, camera, or microphone. It does not request Accessibility access for itself.</p>
+
+<h2>3. Data stored on your device</h2>
+<ul>
+  <li><strong>Timeline:</strong> when apps gained or lost permissions, and periods when monitoring was not running. Kept for up to 180 days, then deleted automatically.</li>
+  <li><strong>Trusted list:</strong> apps you chose to trust (package name, app name, signing-certificate digest).</li>
+  <li><strong>App state:</strong> last monitoring status, last check time, unlock purchase status, and the latest scam app scan result (package names of flagged apps and the scan time), kept so the app works offline.</li>
+</ul>
+<p>This data is stored in the app's private storage, which other apps cannot access. Cloud backup and device-to-device transfer are disabled for this app.</p>
+
+<h2>4. Internet use</h2>
+<p>The app <strong>downloads</strong> a list of AI agents and reported scam apps ("rules file") from <a href="https://gamehod.github.io/ghod-ai-radar/rules/rules.json">https://gamehod.github.io/ghod-ai-radar/rules/rules.json</a> at most once a day.</p>
+<ul>
+  <li>The request contains none of your data, no device identifier, and no parameters.</li>
+  <li>A downloaded file is used only if its digital signature is valid.</li>
+  <li>As with any internet connection, the host sees your IP address and standard connection data under its own policy. We do not keep download logs ourselves.</li>
+</ul>
+
+<h2>5. Payments</h2>
+<p>Unlock purchases are processed entirely by Google Play under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The app only receives from Google Play whether you have purchased. We do not see your name, email, or card details, and the app does not send purchase data anywhere.</p>
+
+<h2>6. Data Google Play may provide to us</h2>
+<p>Depending on your device settings, Google Play may provide us <strong>aggregated, non-identifying statistics</strong> such as install counts, crash rates, and total sales. We use them only to fix problems and improve the app.</p>
+
+<h2>7. Sharing</h2>
+<p>We do not sell, rent, or share your data, because we do not receive your personal data in the first place.</p>
+
+<h2>8. Deleting data</h2>
+<ul>
+  <li>Remove apps from the trusted list on the app's "Trusted list" screen.</li>
+  <li>Delete all app data via Settings → Apps → GHOD AI Radar → Storage → Clear data.</li>
+  <li>Uninstalling the app deletes all data it stored on your device.</li>
+</ul>
+
+<h2>9. Permissions</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>Permission</th><th>Reason</th></tr>
+  <tr><td><code>QUERY_ALL_PACKAGES</code></td><td>See all installed apps to check which hold device-control permissions, and run the scam app scan</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>Alert you when something is detected</td></tr>
+  <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code></td><td>Monitor continuously and alert immediately, with a persistent notification showing that monitoring is on</td></tr>
+  <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Resume monitoring after the device restarts</td></tr>
+  <tr><td><code>REQUEST_DELETE_PACKAGES</code></td><td>The "Uninstall" button for apps that look like scams — opens the system confirmation dialog; you must confirm yourself, and the app cannot remove other apps on its own</td></tr>
+  <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Download the rules file and connect to Google Play for purchases</td></tr>
+  <tr><td><code>com.android.vending.BILLING</code></td><td>Purchase the unlock through Google Play</td></tr>
+</table>
+</div>
+
+<h2>10. Limitations</h2>
+<p>The app reports facts from what it can check. Risk levels are opinions based on the criteria disclosed on the app's "Criteria" screen. "Not found" means not found among the things checked; it is not a guarantee that your device is safe.</p>
+<ul>
+  <li>This app is <strong>not an antivirus</strong>. It does not read files, inspect the code or content of other apps, or remove or disable apps on its own.</li>
+  <li>Scam app scan results say an app "looks like" a scam because they compare against reported lists and agency-like names, which can be wrong. You decide whether to uninstall.</li>
+  <li>The "Phone taken over? What to do" steps are general first-aid guidance, not legal or financial advice.</li>
+</ul>
+
+<h2>11. Children</h2>
+<p>The app is not designed for children, and we do not receive personal data from any user, including children.</p>
+
+<h2>12. Changes</h2>
+<p>If we change how the app handles data, we will update this policy and the date above, and notify you in the app before significant changes take effect.</p>
+
+<h2>13. Contact</h2>
+<p>For questions or to exercise your rights under data-protection law, contact <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a>.</p>
+</div>
+
+</main>
+</body>
+</html>

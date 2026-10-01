@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ข้อกำหนดการใช้งาน · GHOD AI Radar</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5b66; --line: #e3e0e8;
+    --accent: #c62828; --draft-bg: #fff4e5; --draft-fg: #7a4b00; --mark: #fff59d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141218; --fg: #e6e1e5; --muted: #aaa4b0; --line: #36323b;
+      --accent: #ff6b5f; --draft-bg: #3a2a10; --draft-fg: #ffcc80; --mark: #6d5f00;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.7 "Sarabun", "Noto Sans Thai", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; line-height: 1.3; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  .meta { color: var(--muted); font-size: .95rem; }
+  .lang { margin: 16px 0 0; }
+  .lang a { color: var(--accent); }
+  .draft {
+    background: var(--draft-bg); color: var(--draft-fg); border-radius: 8px;
+    padding: 12px 14px; margin: 20px 0; font-size: .95rem;
+  }
+  .summary { border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+  th { background: color-mix(in srgb, var(--line) 45%, transparent); }
+  code { font-size: .9em; overflow-wrap: anywhere; }
+  mark { background: var(--mark); color: inherit; padding: 0 3px; border-radius: 3px; }
+  .table-wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>ข้อกำหนดการใช้งาน</h1>
+<p class="meta">แอป GHOD AI Radar · มีผลตั้งแต่ 1 ตุลาคม 2569 (2026) · ปรับปรุงล่าสุด 1 ตุลาคม 2569 (2026)</p>
+<p class="lang"><a href="#en">English version below</a></p>
+
+<div class="summary">
+  <strong>สรุปสั้น</strong>
+  <ul>
+    <li>แอปแจ้งเตือนเมื่อมีแอปได้สิทธิ์ควบคุมเครื่อง และสแกนแอปที่เข้าข่ายหลอกลวง <strong>คุณเป็นผู้ตัดสินใจเองทุกครั้ง</strong></li>
+    <li>แอปนี้<strong>ไม่ใช่โปรแกรมสแกนไวรัส</strong> และ<strong>ไม่รับประกัน</strong>ว่าจะพบภัยทุกอย่าง</li>
+    <li>ทดลองใช้ครบทุกฟีเจอร์ 15 วัน หลังจากนั้นใช้รุ่นพื้นฐานต่อได้ฟรี หรือปลดล็อกถาวรครั้งเดียวผ่าน Google Play</li>
+  </ul>
+</div>
+
+<h2>1. การยอมรับข้อกำหนด</h2>
+<p>ข้อกำหนดนี้ใช้กับแอป GHOD AI Radar (ชื่อแพ็กเกจ <code>com.ghod.airadar</code>) ซึ่งพัฒนาโดย Mr. Nawaprut Macharoen ("เรา") เมื่อคุณติดตั้งหรือใช้แอป ถือว่าคุณยอมรับข้อกำหนดนี้และ<a href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a> ถ้าไม่ยอมรับ โปรดหยุดใช้และถอนการติดตั้งแอป</p>
+
+<h2>2. สิ่งที่แอปทำ</h2>
+<ul>
+  <li>แจ้งเตือนเมื่อมีแอปได้สิทธิ์ Accessibility, ผู้ดูแลอุปกรณ์, การเข้าถึงการแจ้งเตือน หรือเมื่อมีการเปิด ADB และโหมดนักพัฒนา</li>
+  <li>แจ้งเตือนเมื่อมีการเปิดใช้แป้นพิมพ์ที่เครื่องมือ AI ใช้สั่งงานผ่าน ADB และเมื่อแอปที่ได้สิทธิ์อยู่ในรายชื่อ AI agent ที่มีรายงาน</li>
+  <li>แสดงข้อเท็จจริงของแอปนั้น (ชื่อ ที่มาของการติดตั้ง เวลา ลายเซ็น) และระดับความเสี่ยงตามเกณฑ์ที่เปิดเผยในหน้า "เกณฑ์" ของแอป</li>
+  <li>สแกนแอปหลอกลวง: เทียบแอปในเครื่องกับรายชื่อแอปหลอกลวงที่มีการรายงาน และหาแอปที่ใช้ชื่อคล้ายธนาคารหรือหน่วยงานรัฐแต่ไม่ได้ติดตั้งจากร้านแอปทางการ</li>
+  <li>แสดงขั้นตอนเบื้องต้นเมื่อเครื่องถูกควบคุม</li>
+</ul>
+
+<h2>3. สิ่งที่แอปไม่ทำ และข้อจำกัด</h2>
+<ul>
+  <li>แอปนี้<strong>ไม่ใช่โปรแกรมสแกนไวรัส</strong> (แอนตี้ไวรัส) ไม่อ่านไฟล์ ไม่ตรวจโค้ดหรือเนื้อหาภายในแอปอื่น</li>
+  <li>แอป<strong>ไม่ลบ ไม่ปิด และไม่บล็อก</strong>แอปใดให้เอง การปิดสิทธิ์หรือถอนการติดตั้งทำโดยคุณผ่านหน้าตั้งค่าของ Android</li>
+  <li>แอปตรวจได้เฉพาะสิ่งที่ Android อนุญาตให้ตรวจ Android บางรุ่นไม่ให้อ่านบางค่า และแอปอาจถูกระบบของผู้ผลิตมือถือปิดระหว่างทำงาน</li>
+  <li>ข้อความ "ไม่พบ" หมายถึงไม่พบจากสิ่งที่ตรวจเท่านั้น <strong>ไม่ได้รับรองว่าเครื่องของคุณปลอดภัย</strong> และแอปไม่สามารถป้องกันการหลอกลวงหรือความเสียหายได้ทุกกรณี</li>
+  <li>ระดับความเสี่ยงเป็นความเห็นตามเกณฑ์ ไม่ได้แปลว่าแอปใดเป็นอันตรายหรือไม่เป็นอันตรายแน่นอน</li>
+</ul>
+
+<h2>4. ผลสแกนแอปหลอกลวงและรายชื่อจากแหล่งภายนอก</h2>
+<ul>
+  <li>ผลสแกนใช้คำว่า "<strong>เข้าข่าย</strong>" เพราะเป็นการเทียบกับรายชื่อที่หน่วยงานหรือบริษัทความปลอดภัยรายงาน และชื่อที่คล้ายหน่วยงาน ซึ่งอาจคลาดเคลื่อนได้ แอปไม่ได้กล่าวหาว่าผู้พัฒนาแอปใดกระทำผิด</li>
+  <li>รายชื่อแต่ละรายการระบุแหล่งที่รายงาน เราไม่รับรองความถูกต้องครบถ้วนของข้อมูลจากแหล่งภายนอก</li>
+  <li>ถ้าคุณเป็นผู้พัฒนาแอปและเห็นว่าแอปของคุณถูกระบุผิด ติดต่อ <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a> พร้อมหลักฐาน เราจะตรวจสอบและแก้ไขรายชื่อโดยเร็ว</li>
+</ul>
+
+<h2>5. คำแนะนำในหน้า "เครื่องถูกควบคุม ทำอย่างไรดี"</h2>
+<p>เป็นข้อมูลทั่วไปเพื่อช่วยเบื้องต้น <strong>ไม่ใช่คำแนะนำทางกฎหมาย การเงิน หรือทางเทคนิคเฉพาะกรณี</strong> สายด่วนและบริการของธนาคารเป็นบริการของหน่วยงานภายนอก <strong>แอปนี้ไม่ได้เป็นของ ไม่ได้ร่วมมือ และไม่ได้รับรองโดยหน่วยงานรัฐหรือธนาคารใด</strong> และเราไม่รับผิดชอบต่อผลของบริการเหล่านั้น</p>
+
+<h2>6. ช่วงทดลองใช้ การซื้อ และการคืนเงิน</h2>
+<ul>
+  <li>ทดลองใช้ครบทุกฟีเจอร์ 15 วันนับจากติดตั้ง หลังจากนั้นแอปยังเฝ้า Accessibility และสแกนแอปหลอกลวงต่อได้ฟรี (รุ่นพื้นฐาน)</li>
+  <li>"ปลดล็อกถาวร" เพิ่มการเฝ้า ผู้ดูแลอุปกรณ์ · การอ่านการแจ้งเตือน · ADB ผ่านสายและไร้สาย (รวมแป้นพิมพ์ AI ผ่าน ADB) · โหมดนักพัฒนา และเปิดหน้าไทม์ไลน์ ส่วนขั้นตอนเมื่อเครื่องถูกควบคุม สมุดรายชื่อแอปที่ไว้ใจ และหน้าเกณฑ์ ใช้ได้ทุกรุ่น</li>
+  <li>"ปลดล็อกถาวร" เป็นการซื้อครั้งเดียว ไม่ใช่รายเดือน ราคาแสดงในแอปตามที่ Google Play กำหนดในสกุลเงินของคุณ ชำระผ่าน Google Play เท่านั้น</li>
+  <li>การขอคืนเงินเป็นไปตาม<a href="https://support.google.com/googleplay/answer/2479637">นโยบายการคืนเงินของ Google Play</a> สิทธิ์ที่ซื้อผูกกับบัญชี Google ที่ใช้ซื้อ</li>
+  <li>การติดตั้งแอปใหม่อาจทำให้ช่วงทดลองเริ่มนับใหม่ เราอาจเปลี่ยนเงื่อนไขช่วงทดลองในรุ่นถัดไป แต่จะไม่ตัดสิทธิ์ของผู้ที่ซื้อปลดล็อกแล้ว</li>
+</ul>
+
+<h2>7. การใช้งานที่ยอมรับได้</h2>
+<ul>
+  <li>ใช้แอปกับอุปกรณ์ของคุณเอง หรืออุปกรณ์ที่เจ้าของอนุญาตแล้วเท่านั้น</li>
+  <li>ห้ามใช้แอปหรือข้อมูลจากแอปเพื่อกระทำผิดกฎหมาย รบกวน หรือหลอกลวงผู้อื่น</li>
+  <li>ห้ามดัดแปลง ถอดรหัส หรือเผยแพร่แอปซ้ำ เว้นแต่กฎหมายอนุญาต</li>
+</ul>
+
+<h2>8. ทรัพย์สินทางปัญญา</h2>
+<p>ชื่อ "GHOD AI Radar" โลโก้ ภาพ และโค้ดของแอปเป็นของเรา การใช้แอปไม่ได้ให้สิทธิ์ในทรัพย์สินเหล่านี้แก่คุณ นอกจากสิทธิ์ใช้แอปตามข้อกำหนดนี้</p>
+
+<h2>9. การไม่รับประกันและข้อจำกัดความรับผิด</h2>
+<ul>
+  <li>แอปให้บริการ "ตามสภาพ" เราพยายามให้แอปทำงานถูกต้อง แต่ไม่รับประกันว่าแอปจะไม่มีข้อผิดพลาด ทำงานต่อเนื่องตลอดเวลา หรือพบภัยทุกรูปแบบ</li>
+  <li>เท่าที่กฎหมายอนุญาต เราไม่รับผิดต่อความเสียหายทางอ้อม หรือความเสียหายจากการกระทำของบุคคลภายนอก เช่น มิจฉาชีพ ผู้พัฒนาแอปอื่น หรือผู้ให้บริการภายนอก</li>
+  <li>ข้อนี้ไม่จำกัดความรับผิดที่กฎหมายห้ามจำกัด รวมถึงความรับผิดจากการกระทำโดยจงใจหรือประมาทเลินเล่ออย่างร้ายแรงของเรา และสิทธิ์ของผู้บริโภคตามกฎหมาย</li>
+</ul>
+
+<h2>10. การอัปเดต การเปลี่ยนแปลง และการยุติ</h2>
+<ul>
+  <li>เราอาจอัปเดตแอปและไฟล์กฎ เพิ่ม แก้ หรือยกเลิกฟีเจอร์ได้ โดยจะแจ้งการเปลี่ยนแปลงสำคัญในแอปหรือหน้าร้าน</li>
+  <li>เราอาจปรับปรุงข้อกำหนดนี้ และจะแก้วันที่ด้านบน ถ้าการเปลี่ยนแปลงสำคัญ จะแจ้งในแอปก่อนมีผล</li>
+  <li>คุณหยุดใช้ได้ทุกเมื่อด้วยการถอนการติดตั้งแอป</li>
+</ul>
+
+<h2>11. กฎหมายที่ใช้บังคับ</h2>
+<p>ข้อกำหนดนี้อยู่ภายใต้กฎหมายไทย โดยไม่ตัดสิทธิ์ตามกฎหมายคุ้มครองผู้บริโภคของประเทศที่คุณอาศัยอยู่</p>
+
+<h2>12. ติดต่อเรา</h2>
+<p>Mr. Nawaprut Macharoen · อีเมล <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a></p>
+
+<hr id="en" style="margin:48px 0 24px">
+
+<h1>Terms of Service</h1>
+<p class="meta">GHOD AI Radar · Effective 1 October 2026 · Last updated 1 October 2026</p>
+
+<div class="summary">
+  <strong>Summary</strong>
+  <ul>
+    <li>The app alerts you when an app gains device-control permissions and flags apps that look like scams. <strong>You make every decision.</strong></li>
+    <li>This app is <strong>not an antivirus</strong> and <strong>does not guarantee</strong> it will find every threat.</li>
+    <li>Full features free for 15 days; after that the basic tier stays free, or unlock once through Google Play.</li>
+  </ul>
+</div>
+
+<h2>1. Acceptance</h2>
+<p>These terms cover the GHOD AI Radar app (package <code>com.ghod.airadar</code>), developed by Mr. Nawaprut Macharoen ("we"). By installing or using the app you accept these terms and the <a href="privacy-policy.html#en">Privacy Policy</a>. If you do not accept them, please stop using and uninstall the app.</p>
+
+<h2>2. What the app does</h2>
+<ul>
+  <li>Alerts you when an app gains Accessibility, Device Admin, or Notification access, or when ADB or developer options are turned on.</li>
+  <li>Alerts you when a keyboard that AI tools use over ADB is enabled, and when an app that gains these permissions is on the list of reported AI agents.</li>
+  <li>Shows facts about that app (name, install source, time, signature) and a risk level based on the criteria disclosed on the app's "Criteria" screen.</li>
+  <li>Scam app scan: compares installed apps with a list of reported scam apps and flags apps named like a bank or government agency that weren't installed from an official app store.</li>
+  <li>Shows first-aid steps if your phone is taken over.</li>
+</ul>
+
+<h2>3. What the app does not do, and limitations</h2>
+<ul>
+  <li>This app is <strong>not an antivirus</strong>. It does not read files or inspect the code or content of other apps.</li>
+  <li>The app <strong>never removes, disables, or blocks</strong> apps on its own. You turn off permissions or uninstall apps yourself through Android settings.</li>
+  <li>The app can only check what Android allows. Some Android versions hide certain settings, and phone makers' battery systems may stop the app.</li>
+  <li>"None found" means none found among what was checked. It is <strong>not a guarantee that your device is safe</strong>, and the app cannot prevent every scam or loss.</li>
+  <li>Risk levels are opinions based on the criteria; they do not mean an app is or is not harmful.</li>
+</ul>
+
+<h2>4. Scam scan results and third-party lists</h2>
+<ul>
+  <li>Results say an app "<strong>looks like</strong>" a scam because they compare against lists reported by agencies or security companies and against agency-like names, which can be wrong. The app does not accuse any developer of wrongdoing.</li>
+  <li>Each list entry names its source. We do not guarantee the accuracy or completeness of third-party information.</li>
+  <li>If you are a developer and believe your app is listed in error, contact <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a> with evidence and we will review and correct the list promptly.</li>
+</ul>
+
+<h2>5. "Phone taken over? What to do" guidance</h2>
+<p>This is general first-aid information, <strong>not legal, financial, or case-specific technical advice</strong>. Banks and hotlines are third-party services. <strong>This app is not owned by, affiliated with, or endorsed by any government agency or bank</strong>, and we are not responsible for those services.</p>
+
+<h2>6. Trial, purchase, and refunds</h2>
+<ul>
+  <li>All features are free for 15 days from installation. After that the app keeps watching Accessibility and running the scam scan for free (basic tier).</li>
+  <li>The "One-time unlock" adds monitoring of device admin, notification access, USB and wireless ADB (including the AI keyboard over ADB), and developer options, and opens the timeline. The takeover steps, the trusted list, and the criteria page are available in every tier.</li>
+  <li>"One-time unlock" is a single purchase, not a subscription. The price shown in the app is set by Google Play in your currency and is paid through Google Play only.</li>
+  <li>Refunds follow the <a href="https://support.google.com/googleplay/answer/2479637">Google Play refund policy</a>. Purchases are tied to the Google account used to buy.</li>
+  <li>Reinstalling the app may restart the trial. We may change trial terms in future versions but will not remove an unlock you have bought.</li>
+</ul>
+
+<h2>7. Acceptable use</h2>
+<ul>
+  <li>Use the app only on your own device or a device whose owner has given permission.</li>
+  <li>Do not use the app or its information to break the law, harass, or deceive others.</li>
+  <li>Do not modify, reverse-engineer, or redistribute the app except where the law allows.</li>
+</ul>
+
+<h2>8. Intellectual property</h2>
+<p>The name "GHOD AI Radar", the logo, images, and code are ours. Using the app gives you no rights in them other than the right to use the app under these terms.</p>
+
+<h2>9. No warranty and limitation of liability</h2>
+<ul>
+  <li>The app is provided "as is". We work to make it correct but do not warrant that it is error-free, always running, or able to detect every threat.</li>
+  <li>To the extent permitted by law, we are not liable for indirect losses or for losses caused by third parties such as scammers, other app developers, or outside services.</li>
+  <li>Nothing here limits liability that cannot be limited by law, including for our intentional acts or gross negligence, or your statutory consumer rights.</li>
+</ul>
+
+<h2>10. Updates, changes, and termination</h2>
+<ul>
+  <li>We may update the app and rules file and add, change, or remove features, and will announce significant changes in the app or store listing.</li>
+  <li>We may update these terms and will change the date above; significant changes will be announced in the app before they take effect.</li>
+  <li>You may stop at any time by uninstalling the app.</li>
+</ul>
+
+<h2>11. Governing law</h2>
+<p>These terms are governed by the laws of Thailand, without removing consumer-protection rights you have where you live.</p>
+
+<h2>12. Contact</h2>
+<p>Mr. Nawaprut Macharoen · Email <a href="mailto:gamehod_ai@hotmail.com">gamehod_ai@hotmail.com</a></p>
+
+</main>
+</body>
+</html>
