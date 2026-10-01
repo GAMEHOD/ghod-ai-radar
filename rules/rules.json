@@ -1,0 +1,230 @@
+{
+  "version": 4,
+  "updated": "2026-09-30",
+  "aiAgents": [
+    {
+      "package": "com.mobilerun.portal",
+      "name": "Mobilerun Portal (Droidrun)",
+      "source": "https://docs.mobilerun.ai/framework/guides/device-setup"
+    },
+    {
+      "package": "com.droidrun.portal",
+      "name": "Droidrun Portal (รุ่นเก่า)",
+      "source": "https://www.cnblogs.com/clairejing/p/18970927"
+    },
+    {
+      "package": "com.blurr.voice",
+      "name": "Panda (Blurr)",
+      "source": "https://play.google.com/store/apps/details?id=com.blurr.voice"
+    },
+    {
+      "package": "com.ai.assistance.operit",
+      "name": "Operit AI",
+      "source": "https://github.com/AAswordman/Operit"
+    }
+  ],
+  "aiInputMethods": [
+    {
+      "package": "com.android.adbkeyboard",
+      "name": "ADB Keyboard (ใช้กับ Open-AutoGLM และเครื่องมือ AI ผ่าน ADB)",
+      "source": "https://github.com/senzhk/ADBKeyBoard"
+    }
+  ],
+  "scamApps": [
+    {
+      "package": "com.aa.kredit.android",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.amorcash.credito.prestamo",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.app.lo.go",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.cashwow.cow.eg",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.dinero.profin.prestamo.credito.credit.credibus.loan.efectivo.cash",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.flashloan.wsft",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.guayaba.cash.okredito.mx.tala",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.loan.cash.credit.tala.prestmo.fast.branch.mextamo",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.mlo.xango",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.mmp.optima",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.mxolp.postloan",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.okey.prestamo",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.shuiyiwenhua.gl",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.swefjjghs.weejteop",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.truenaira.cashloan.moneycredit",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "king.credit.ng",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "ESET Research: SpyLoan (5 ธ.ค. 2023) https://www.welivesecurity.com/en/eset-research/beware-predatory-fintech-loan-sharks-use-android-apps-reach-new-depths/"
+    },
+    {
+      "package": "com.crownplay.vanity.address",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.atvnewsonline.app",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.bintiger.mall.android",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.websea.exchange",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "org.safew.messenger",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "org.safew.messenger.store",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.tonghui.paybank",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.bs.feifubao",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.sapp.chatai",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.sapp.starcoin",
+      "name": "SparkCat (ขโมยรูปรหัสกระเป๋าคริปโต)",
+      "source": "Kaspersky: SparkCat (5 ก.พ. 2025) https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/"
+    },
+    {
+      "package": "com.gjf2.office",
+      "name": "Remo \"ARK\" (โทรจันธนาคาร)",
+      "source": "Cyble: Remo banking trojan เล็งไทย/เวียดนาม/อินโดนีเซีย (29 ส.ค. 2023) https://cyble.com/blog/new-remo-android-banking-trojan-targets-over-50-banking-applications-and-crypto-wallets/"
+    }
+  ],
+  "scamAppsFormat": {
+    "package": "ชื่อแพ็กเกจของแอปหลอกลวงเอง (ห้ามใส่ชื่อแพ็กเกจของแอปจริงที่ถูกเลียนแบบ ไม่งั้นจะจับแอปจริงด้วย)",
+    "certSha256": [
+      "ลายเซ็น SHA-256 ของใบรับรอง (ไม่ใช่ SHA-256 ของไฟล์ APK)"
+    ],
+    "name": "ตระกูล/ชื่อที่รายงาน",
+    "source": "ผู้รายงาน วันที่ และลิงก์ — ต้องมีทุกรายการ"
+  },
+  "lookalike": {
+    "keywords": [
+      "ธนาคาร",
+      "กสิกร",
+      "ไทยพาณิชย์",
+      "กรุงไทย",
+      "กรุงศรี",
+      "ออมสิน",
+      "ธ.ก.ส",
+      "ทีทีบี",
+      "ธอส",
+      "kbank",
+      "k plus",
+      "kplus",
+      "scb",
+      "krungthai",
+      "krungsri",
+      "bangkok bank",
+      "gsb",
+      "mymo",
+      "baac",
+      "ttb",
+      "กรมสรรพากร",
+      "สรรพากร",
+      "กรมที่ดิน",
+      "การไฟฟ้า",
+      "กฟภ",
+      "กฟน",
+      "การประปา",
+      "กปภ",
+      "กปน",
+      "ประกันสังคม",
+      "กรมสอบสวนคดีพิเศษ",
+      "ดีเอสไอ",
+      "ตำรวจ",
+      "เป๋าตัง",
+      "ทางรัฐ",
+      "กรมบัญชีกลาง",
+      "กรมการปกครอง",
+      "กรมการขนส่ง",
+      "กรมศุลกากร",
+      "ปปง",
+      "dsi",
+      "thaid",
+      "paotang",
+      "revenue department",
+      "digital pension",
+      "บำเหน็จบำนาญ"
+    ],
+    "note": "officialCertSha256 = ลายเซ็นของแอปธนาคาร/หน่วยงานจริง (ยกเว้นแอปจริงที่ติดตั้งนอกร้านทางการ) · ไม่ใช้ชื่อแพ็กเกจ เพราะแอปปลอมลอกชื่อแพ็กเกจของแอปจริงได้",
+    "officialCertSha256": []
+  }
+}
