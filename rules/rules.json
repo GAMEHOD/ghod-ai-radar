@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated": "2026-09-30",
+  "version": 5,
+  "updated": "2026-10-07",
   "aiAgents": [
     {
       "package": "com.mobilerun.portal",
@@ -165,6 +165,81 @@
       "package": "com.gjf2.office",
       "name": "Remo \"ARK\" (โทรจันธนาคาร)",
       "source": "Cyble: Remo banking trojan เล็งไทย/เวียดนาม/อินโดนีเซีย (29 ส.ค. 2023) https://cyble.com/blog/new-remo-android-banking-trojan-targets-over-50-banking-applications-and-crypto-wallets/"
+    },
+    {
+      "package": "com.gotoloan.cash",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.hm.happy.money",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.pret.loan.ligne.personnel",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.uang.belanja",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.prestamoseguro.ss",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.voscp.rapido",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.rupiahkilat.best",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.kreditku.kuindo",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.winner.rupiahcl",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.vay.cashloan.cash",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.restrict.bright.cowboy",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.credit.orange.enespeces.mtn.ouest.wave.argent.tresor.payer.pret",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.huaynamoney.prestamos.creditos.peru.loan.credit",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.credito.iprestamos.dinero.en.linea.chile",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.conseguir.sol.pe",
+      "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
+      "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
     }
   ],
   "scamAppsFormat": {
