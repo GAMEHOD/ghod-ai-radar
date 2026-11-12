@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updated": "2026-10-07",
+  "version": 6,
+  "updated": "2026-11-11",
   "aiAgents": [
     {
       "package": "com.mobilerun.portal",
@@ -240,6 +240,21 @@
       "package": "com.conseguir.sol.pe",
       "name": "SpyLoan (แอปเงินกู้ขโมยข้อมูล)",
       "source": "McAfee Labs: SpyLoan (25 พ.ย. 2024) https://www.mcafee.com/blogs/other-blogs/mcafee-labs/spyloan-a-global-threat-exploiting-social-engineering/"
+    },
+    {
+      "package": "com.nfupay.s145",
+      "name": "PhantomCard (แอปปลอมขโมยข้อมูลบัตรผ่าน NFC)",
+      "source": "ThreatFabric: PhantomCard (14 ส.ค. 2025) https://www.threatfabric.com/blogs/phantomcard-new-nfc-driven-android-malware-emerging-in-brazil"
+    },
+    {
+      "package": "com.rc888.baxi.English",
+      "name": "PhantomCard (แอปปลอมขโมยข้อมูลบัตรผ่าน NFC)",
+      "source": "ThreatFabric: PhantomCard (14 ส.ค. 2025) https://www.threatfabric.com/blogs/phantomcard-new-nfc-driven-android-malware-emerging-in-brazil"
+    },
+    {
+      "package": "rb.system.com",
+      "name": "NGate (แอปปลอมขโมยข้อมูลบัตรผ่าน NFC)",
+      "source": "ESET Research: NGate (22 ส.ค. 2024) https://www.welivesecurity.com/en/eset-research/ngate-android-malware-relays-nfc-traffic-to-steal-cash/"
     }
   ],
   "scamAppsFormat": {
