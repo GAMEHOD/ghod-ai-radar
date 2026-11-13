@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updated": "2026-11-11",
+  "version": 7,
+  "updated": "2026-11-13",
   "aiAgents": [
     {
       "package": "com.mobilerun.portal",
@@ -255,6 +255,21 @@
       "package": "rb.system.com",
       "name": "NGate (แอปปลอมขโมยข้อมูลบัตรผ่าน NFC)",
       "source": "ESET Research: NGate (22 ส.ค. 2024) https://www.welivesecurity.com/en/eset-research/ngate-android-malware-relays-nfc-traffic-to-steal-cash/"
+    },
+    {
+      "package": "net.iceflow.arcticlink",
+      "name": "ArcticRAT (โทรจันควบคุมเครื่องจากระยะไกล)",
+      "source": "Zimperium zLabs: ArcticRAT (12 พ.ย. 2026) https://zimperium.com/blog/arcticrat-ai-powered-android-rat"
+    },
+    {
+      "package": "net.frostlink.iceforge",
+      "name": "ArcticRAT (โทรจันควบคุมเครื่องจากระยะไกล)",
+      "source": "Zimperium zLabs: ArcticRAT (12 พ.ย. 2026) https://zimperium.com/blog/arcticrat-ai-powered-android-rat"
+    },
+    {
+      "package": "com.yofund",
+      "name": "Wing สินเชื่อสะดวกสบาย (แอปเงินกู้ที่ สคบ. ระบุว่าแอบอ้างการรับรองจากหน่วยงานรัฐ)",
+      "source": "สคบ.: พบ 5 แอปเงินกู้แอบอ้างชื่อ สคบ. ธปท. ก.ล.ต. (19 พ.ค. 2026) https://www.ocpb.go.th/news_view.php?nid=17863 · ชื่อแพ็กเกจจากหน้า Google Play ของแอป (ถูกนำออกแล้ว) https://play.google.com/store/apps/details?id=com.yofund"
     }
   ],
   "scamAppsFormat": {
